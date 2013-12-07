@@ -7,5 +7,4 @@ public class ApplianceControl {
 	public void off(){
 		System.out.println("appliance off");
 	}
-
 }
