@@ -18,8 +18,8 @@ public class CeillingFan {
 		System.out.println("Ceilling fan speed low");
 	}
 	
-	public void setSpeed(double speed){
-		this.speed = speed;
+	public void setSpeed(Object o){
+		this.speed = (double) o;
 		System.out.println("Ceilling fan speed: " + this.speed);
 	}
 }

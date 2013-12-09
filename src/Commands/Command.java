@@ -5,5 +5,5 @@ public abstract class Command implements Commands{
 	public abstract void execute();
 	
 	@Override
-	public void execute(Object o) {}
+	public final void execute(Object o) {}
 }

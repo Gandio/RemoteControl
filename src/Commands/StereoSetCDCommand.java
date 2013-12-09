@@ -11,9 +11,6 @@ public class StereoSetCDCommand extends CommandOneChoice{
 	}
 	
 	@Override
-	public void execute() {}
-	
-	@Override
 	public void execute(Object o) {
 		// TODO Auto-generated method stub
 		stereo.on();

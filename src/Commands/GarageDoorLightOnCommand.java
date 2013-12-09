@@ -3,7 +3,7 @@ package Commands;
 import Machine.GarageDoor;
 
 public class GarageDoorLightOnCommand extends Command{
-	GarageDoor door;
+	private GarageDoor door;
 	
 	public GarageDoorLightOnCommand(GarageDoor door) {
 		// TODO Auto-generated constructor stub
